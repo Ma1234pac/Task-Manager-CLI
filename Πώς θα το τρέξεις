@@ -1,0 +1,25 @@
+Από το root του project:
+
+python -m venv venv
+
+Ενεργοποίηση:
+
+Windows:
+
+venv\Scripts\activate
+
+Linux/macOS:
+
+source venv/bin/activate
+
+Μετά:
+
+pip install -r requirements.txt
+
+και:
+
+python src/task_manager.py
+
+Για tests:
+
+pytest -v
